@@ -6,11 +6,11 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "browser-sync start --server --files \"**/*.{html,htm,css,js}\" --ignore \"node_modules\""
   },
   "author": "Natália Machado",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "browser-sync": "^3.0.4"
   }
 }
